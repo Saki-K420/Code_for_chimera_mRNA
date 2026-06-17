@@ -18,6 +18,7 @@ Code_for_chimera_mRNA
 ## Requirements
 - Python (v3.13 or later)
 - BEDTools (v2.31 or later)
+## Workflow
 
 ## Usage
   #### Step 1. Extraction of TSSs that overlapped with TEs.  
@@ -40,7 +41,6 @@ Count_transcript_bed_all.py TSS_overlap_TE.unique.bed TSS_overlap_TE.unique.coun
 ```bash
 python filter_gtf_by_bed_250403.py TSS_overlap_TE.bed original.gtf TSS_overlap_TE.gtf
 ```
-## Install
 
 ## Licence
   It is free software; you can redistribute it and/or modify them under the MIT License.
