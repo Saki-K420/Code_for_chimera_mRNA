@@ -18,8 +18,8 @@ Code_for_chimera_mRNA
 - Python (v3.13 or later)
 - BEDTools (v2.31 or later)
 ## Workflow
-![Workflow](github.workflow1.jpg)
-<img alt="Workflow" src="github.workflow1.jpg" width="400">
+![Workflow](github.workflow1.png)
+<img alt="Workflow" src="github.workflow1.png" width="600">
 ## Usage
   #### Step 1. Extraction of TSSs that overlapped with TEs.  
 ```bash
