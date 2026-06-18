@@ -19,7 +19,7 @@ Code_for_chimera_mRNA
 - BEDTools (v2.31 or later)
 ## Workflow
 ![Workflow](github.workflow.jpg)
-<img alt="Workflow" src="github.workflow.jpg" width="{60%}">
+<img alt="Workflow" src="github.workflow.jpg" width="800">
 ## Usage
   #### Step 1. Extraction of TSSs that overlapped with TEs.  
 ```bash
