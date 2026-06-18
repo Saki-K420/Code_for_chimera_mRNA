@@ -7,11 +7,11 @@ def remove_duplicate_lines_ignore_col4(input_file, output_file):
             for line in infile:
                 columns = line.strip().split('\t')
 
-                # 4列目を無視して識別キーを作成
-                if len(columns) >= 5:  # 少なくとも5列以上あることを確認
-                    key = tuple(columns[:3] + columns[4:])  # 1-3列目 + 5列目以降を使用
+                # Skip column[4]
+                if len(columns) >= 5:  # Check that there are at least five columns.
+                    key = tuple(columns[:3] + columns[4:])  # Use columns 1–3 and columns 5 and beyond.
                 else:
-                    key = tuple(columns)  # 5列未満ならそのまま比較
+                    key = tuple(columns)  # If fewer than five columns are present, compare the original lines.
 
                 if key not in seen:
                     seen.add(key)
