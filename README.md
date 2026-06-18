@@ -33,8 +33,9 @@ bedtools intersect -wa TSS.bed -wb TE.bed > TSS_overlap_TE.bed
 python remove_duplicates.py TSS_overlap_TE.bed TSS_overlap_TE.unique.bed
 ```
   #### Step 3. Count and atatch information about TE class, subclass and repeatname.
+```bash
 Count_transcript_bed_all.py TSS_overlap_TE.unique.bed TSS_overlap_TE.unique.count.bed
-
+```
 ### Downstream Genes Associated with Transposable Elements
   #### Step 2. Compared bed file generated in Step 1. against the original GTF file.
 ```bash
