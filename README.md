@@ -1,7 +1,7 @@
 Code_for_chimera_mRNA
 ========================
 ## Overview
-  `Code_for_chimera_mRNA` is a pipeline to detect "chimeric mRNAs", which are derived from Transposable element (TE). Methods for detecting chimeric mRNAs are not yet standardized. This repository include sequence of custom Python scripts for identifying potential chimeric mRNAs. 
+  `Code_for_chimera_mRNA` is a pipeline to detect "chimeric mRNAs", which are driven by Transposable element (TE). As no standardized method for detecting chimeric mRNAs has been established in the field, this repository provides custom Python scripts for identifying potential chimeric mRNAs. 
   The workflow can be broadly divided into two categories:
 ### TEs as Promoters
 ### Downstream Genes Associated with Transposable Elements
